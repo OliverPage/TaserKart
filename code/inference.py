@@ -32,7 +32,7 @@ labels = ['safe', 'hit']
 
 # initialize the model and load the trained weights
 model = CNNModel().to(device)
-checkpoint = torch.load('outputs/model.pth', map_location=device)
+checkpoint = torch.load('TaserKart-main/outputs/model.pth', map_location=device)
 model.load_state_dict(checkpoint['model_state_dict'])
 model.eval()
 
