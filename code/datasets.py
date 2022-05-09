@@ -16,7 +16,7 @@ train_transform = transforms.Compose([
     transforms.Resize(224),
     transforms.RandomHorizontalFlip(p=0.5),
     transforms.RandomVerticalFlip(p=0.5),
-    transforms.GaussianBlur(kernel_size=(5, 9), sigma=(0.1, 5)),
+    #transforms.GaussianBlur(kernel_size=(5, 9), sigma=(0.1, 5)),
     transforms.RandomRotation(degrees=(30, 70)),
     transforms.ToTensor(),
     transforms.Normalize(
