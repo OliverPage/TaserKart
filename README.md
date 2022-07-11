@@ -1,15 +1,23 @@
 # TaserKart
 
-What it sounds like
-
-Trying to get it to work on Google Colab
+Mario Kart but if your character gets hit you are electricuted
 
 
-In code:
-- datasets.py gets the data using torchvision.datasets.ImageFolder
-- model.py specifies the neural network
+### Plan
+
+Nintendo Switch -> HDMI spitter -> TV (to play on)
+								-> laptop -> Google Colab -(if hit)-> server -> microcontroller (MC) -> TENS unit
+
+### Details
+- Microcontroller = Raspberyy Pi Pico W
+
+- 1x MC hardwired into TENS unit, can controll output for two players 
 
 
-outputs directory contains:
-- the trained models
-- zippped results from colab sessions
+| Parts  | 2 Players     | 4 Players |
+|--------------|-----------|------------|
+| Laptop | 1 | 1  |
+| CG scripts| 2  |  2  |
+|Microcontrollers | 1 | 2 |
+|TENS units | 1 | 2 |
+
