@@ -6,12 +6,14 @@ Mario Kart but if your character gets hit, you get electricuted
 ### Plan
 
 Nintendo Switch -> HDMI spitter -> TV (to play on)
-								-> laptop -> Google Colab -(if hit)-> server -> microcontroller (MC) -> TENS unit
+								-> laptop -> Google Colab -(if hit)-> server -> microcontroller -> TENS unit
+
 
 ### Details
-- Microcontroller = Raspberyy Pi Pico W
-
+- Microcontroller (MC) = Raspberyy Pi Pico W
 - 1x MC hardwired into TENS unit, can controll output for two players 
+- Use GPU in Google Colab to analyse a single player's feed
+
 
 
 | Parts  | 2 Players     | 4 Players |
