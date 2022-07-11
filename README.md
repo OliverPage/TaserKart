@@ -1,6 +1,6 @@
 # TaserKart
 
-Mario Kart but if your character gets hit you are electricuted
+Mario Kart but if your character gets hit, you get electricuted
 
 
 ### Plan
@@ -21,3 +21,15 @@ Nintendo Switch -> HDMI spitter -> TV (to play on)
 |Microcontrollers | 1 | 2 |
 |TENS units | 1 | 2 |
 
+
+
+### Progress
+
+**Done:**
+- MC controlled TENS unit
+
+**To do:**
+- Server to controll MC
+- Computer vision model
+- Combine all the ingredients for two player Taser Kart
+- (Upgrade to four player Taser Kart)
