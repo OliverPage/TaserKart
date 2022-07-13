@@ -1,5 +1,5 @@
 import socket
-host = '127.0.0.1'
+host = '192.168.1.219'
 port = 8080
 
 # Connect to server
@@ -7,8 +7,8 @@ ClientSocket = socket.socket()
 print('Waiting for connection')
 try:
     ClientSocket.connect((host, port))
-except socket.error as e:
-    print(str(e))
+except:
+    print("error with socket")
 
 # Communicate with socket
 Response = ClientSocket.recv(2048)

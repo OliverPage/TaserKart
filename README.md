@@ -29,10 +29,10 @@ Nintendo Switch -> HDMI spitter -> TV (to play on)
 
 **Done:**
 - MC controlled TENS unit
+- MC controlled by server
 
 **To do:**
 - Compile new data sets
-- Server to controll MC
 - Computer vision model
 - Combine all the ingredients for two player Taser Kart
 - (Upgrade to four player Taser Kart)
