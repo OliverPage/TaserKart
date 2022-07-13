@@ -6,7 +6,7 @@ Mario Kart but if your character gets hit, you get electricuted
 ## Plan
 
 Nintendo Switch -> HDMI spitter -> TV (to play on)<br>
-                                -> laptop -> Google Colab -(if hit)-> server -> microcontroller -> TENS unit
+                  (HDMI splitter) -> laptop -> Google Colab -(if hit)-> server -> microcontroller -> TENS unit
 
 
 ## Details
