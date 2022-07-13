@@ -10,7 +10,7 @@ Nintendo Switch -> HDMI spitter -> TV (to play on)
 
 
 ## Details
-- Microcontroller (MC) = Raspberyy Pi Pico W
+- Microcontroller (MC) = Raspberry Pi Pico W
 - 1x MC hardwired into TENS unit, can controll output for two players (maybe four?)
 - Use GPU in Google Colab to analyse a single player's feed
 
